@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  width: 200px;
+}
+ul li {
+  background-color: rgb(160, 7, 7);
+  padding: 10px 15px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+i {
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  margin: auto;
+  gap: 30px;
+  align-items: center;
+}
+
+.container ul {
+  margin-top: 20px;
+}
+
+form {
+  width: 300px;
+  padding: 10px;
+  background-color: bisque;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: burlywood;
+}
+
+button {
+  padding: 0px 5px;
+  font-size: 12px;
+}
