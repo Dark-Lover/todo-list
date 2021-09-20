@@ -11,18 +11,24 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>Refactored: Todo APP using MVC Vanilla Js</title>
   </head>
   <body>
     <div id="card" class="container">
       <ul id="mylist"></ul>
       <form action="#" class="my_form">
-        <label>
-          <input id="input_text" type="text" name="menu_item" />
+        <label for="title">
+          Task Title
+          <input type="text" id="title" name="title" />
         </label>
+        <label for="desc">
+          Task Description
+          <input type="text" id="desc" name="desc"
+        /></label>
+
         <button id="add_item" type="submit">Add Menu Item</button>
       </form>
     </div>
-    <script src="main.js"></script>
+    <script type="module" src="controller.js"></script>
   </body>
 </html>

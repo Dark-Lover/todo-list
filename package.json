@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo List using MVC",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dark-Lover/todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dark-Lover/todo-list/issues"
+  },
+  "homepage": "https://github.com/Dark-Lover/todo-list#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.18.0",
+    "postcss": "^8.3.6",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
